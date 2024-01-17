@@ -1,0 +1,32 @@
+.experience-area{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    grid-area: languages;
+
+    h3{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: var(--text-primary);
+        text-align: center;
+
+        @media (min-width: 750px) {
+            font-size: 24px;
+            line-height: 36px;
+            text-align: start;
+        }
+    }
+
+    .languages-list{
+        display: grid;
+        grid-template-columns: repeat(3, fit-content(70px));
+        grid-gap: 12px;
+        justify-content: center;
+        filter: grayscale(100%);
+
+        @media (min-width: 750px) {
+            justify-content: start;
+        }
+    }
+}
