@@ -1,0 +1,58 @@
+.project-item{
+    background-color: var(--bg-secondary);
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px 0px;
+
+    .heading{
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            gap: 8px;
+
+            strong{
+                font-size: 1.25rem;
+                font-weight: 500;
+                color: var(--text-dark);
+            }
+        }
+    }
+
+    p{
+        font-size: 1.25rem;
+        color: var(--text-dark);
+    }
+
+    .languages{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 8px;
+
+        span{
+            font-weight: bold;
+            color: var(--text-primary);
+            background-color: var(--green-detail);
+            padding: 8px;
+            border-radius: 8px;
+        }
+    }
+
+    .open-links-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 8px;
+
+        a{
+            cursor: pointer;
+            text-decoration: none;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            padding: 8px;
+            border-radius: 8px;
+        }
+    }
+}
