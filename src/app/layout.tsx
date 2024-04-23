@@ -4,7 +4,8 @@ import './globals.scss'
 
 const poppins = Poppins({ 
   subsets: ['latin'], 
-  weight: ['300', '400', '500', '600'] 
+  weight: ['300', '400', '500', '600'],
+  display: 'swap' 
 })
 
 export const metadata: Metadata = {
