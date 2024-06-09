@@ -10,7 +10,7 @@ export function MyProjects(){
 
                 <ProjectItem title="mks-loja-virtual" description="Projeto de loja virtual renderizando a lista de produtos de uma API e exibindo um carrinho de compras interativo." skillsUsed={["NextJS", "React", "TypeScript", "JavaScript", "Sass"]} repo_url="https://github.com/reuelsilva/mks-frontend-challenge" deploy_url="https://mks-frontend-challenge-deploy.vercel.app/" />
 
-                <ProjectItem title="netflix-clone" description="Replicando a interface da Netflix com responsividade e APIs" skillsUsed={["React", "JavaScript", "HTML", "CSS"]} repo_url="https://github.com/reuelsilva/netflix-clone" deploy_url="https://reuelsilva.github.io/netflix-clone/"/>
+                <ProjectItem title="netflix-clone" description="Replicando a interface da Netflix com responsividade e APIs" skillsUsed={["React", "NextJS", "JavaScript", "Tailwind CSS", "HTML"]} repo_url="https://github.com/reuelsilva/netflix-clone" deploy_url="https://netflix-clone-develop.vercel.app/"/>
             </div>
         </div>
     )
