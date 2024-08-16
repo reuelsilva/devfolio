@@ -8,6 +8,8 @@ export function MyProjects(){
             <div className="projects-grid">               
                 <ProjectItem title="projeto-blog" description="Projeto de blog para artigos de tecnologia com navegação entre rotas." skillsUsed={["NextJS", "React", "TypeScript", "Tailwind CSS", "JavaScript"]} repo_url="https://github.com/reuelsilva/projeto-blog" deploy_url="https://curiosidades-de-tecnologia.vercel.app/"/>
 
+                <ProjectItem title="web-technical-test" description="Teste front-end desenvolvendo uma Promotions Page rápida e responsiva em mobile first." skillsUsed={["JavaScript", "HTML", "CSS", "JSON Server"]} repo_url="https://github.com/reuelsilva/web-technical-test" deploy_url="#" />
+
                 <ProjectItem title="mks-loja-virtual" description="Projeto de loja virtual renderizando a lista de produtos de uma API e exibindo um carrinho de compras interativo." skillsUsed={["NextJS", "React", "TypeScript", "JavaScript", "Sass"]} repo_url="https://github.com/reuelsilva/mks-frontend-challenge" deploy_url="https://mks-frontend-challenge-deploy.vercel.app/" />
 
                 <ProjectItem title="coffee-shop" description="Projeto de site de uma cafeteria desenvolvido com o back-end NodeJS para alimentar os dados do front-end." skillsUsed={["NextJS", "React", "JavaScript", "TypeScript", "CSS", "HTML"]} repo_url="https://github.com/reuelsilva/coffee-shop" deploy_url="#" />
