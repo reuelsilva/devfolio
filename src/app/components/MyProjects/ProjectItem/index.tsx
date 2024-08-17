@@ -5,7 +5,7 @@ interface ProjectItemProps{
     description: string
     skillsUsed: string[]
     repo_url: string
-    deploy_url: string
+    deploy_url?: string
 }
 
 export function ProjectItem({title, description, skillsUsed, repo_url, deploy_url}: ProjectItemProps){
@@ -26,7 +26,11 @@ export function ProjectItem({title, description, skillsUsed, repo_url, deploy_ur
             </div>
             <div className="open-links-buttons">
                 <a href={repo_url} target="_blank">Abrir repositório</a>
-                <a href={deploy_url} target="_blank">Abrir deploy</a>
+                {
+                    deploy_url && (
+                        <a href={deploy_url} target="_blank">Abrir deploy</a>
+                    )
+                }
             </div>
         </div>
     )
