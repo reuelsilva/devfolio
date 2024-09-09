@@ -10,7 +10,7 @@ export function MyProjects(){
 
                 <ProjectItem title="web-technical-test" description="Teste front-end desenvolvendo uma Promotions Page rápida e responsiva em mobile first." skillsUsed={["JavaScript", "HTML", "CSS", "JSON Server"]} repo_url="https://github.com/reuelsilva/web-technical-test" />
 
-                <ProjectItem title="mks-loja-virtual" description="Projeto de loja virtual renderizando a lista de produtos de uma API e exibindo um carrinho de compras interativo." skillsUsed={["NextJS", "React", "TypeScript", "JavaScript", "Sass"]} repo_url="https://github.com/reuelsilva/mks-frontend-challenge" deploy_url="https://mks-frontend-challenge-deploy.vercel.app/" />
+                <ProjectItem title="mks-loja-virtual" description="Projeto de loja virtual renderizando a lista de produtos de uma e exibindo um carrinho de compras interativo." skillsUsed={["HTML", "CSS", "JavaScript", "JSON Server"]} repo_url="https://github.com/reuelsilva/mks-frontend-challenge" />
 
                 <ProjectItem title="coffee-shop" description="Projeto de site de uma cafeteria desenvolvido com o back-end NodeJS para alimentar os dados do front-end." skillsUsed={["NextJS", "React", "JavaScript", "TypeScript", "CSS", "HTML"]} repo_url="https://github.com/reuelsilva/coffee-shop"/>
 
