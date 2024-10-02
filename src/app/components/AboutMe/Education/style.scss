@@ -4,6 +4,11 @@
     grid-template-rows: repeat(2, fit-content);
     grid-area: education;
     align-items: center;
+    margin: 0 auto;
+
+    @media (min-width: 750px) {
+        max-width: 380px;
+    }
 
     span{
      color: var(--text-secondary);   
@@ -12,4 +17,5 @@
     .graduation-cap-emoji{
         font-size: 24px;
     }
+
 }
