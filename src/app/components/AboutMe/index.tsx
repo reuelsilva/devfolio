@@ -1,15 +1,15 @@
 import { Education } from "./Education";
 import { Experience } from "./Experience";
-import { Social } from "./Social";
+import { Bio } from "./Bio";
 
 import "./style.scss"
 
 export function AboutMe(){
     return(
         <div className="about-section">
-            <Experience/>
+            <Bio />
             <Education/>
-            <Social/>
+            <Experience/>
         </div>
     )
 }
