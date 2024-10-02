@@ -13,7 +13,7 @@ export function Social(){
                 <a href="https://www.linkedin.com/in/reuelsilva" target="_blank"><LinkedInIcon/></a>
                 <a href="https://github.com/reuelsilva" target="_blank"><GithubIcon/></a>
                 <a href="mailto:reuelsilva19@gmail.com"><EmailIcon/></a>
-                <a href="https://wa.me/21996230995"><WhatsAppIcon/></a>
+                <a href="https://wa.me/+5521996230995"><WhatsAppIcon/></a>
             </div>
         </div>
     )
