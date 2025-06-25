@@ -12,7 +12,7 @@ export const PROJECTS:ProjectProps[] = [
     {
         id: 2,
         nome: 'vulcao-tintas-frontend',
-        descricao: 'Projeto de landing page para a loja Vulcão Tintas, especializada em tintas automotivas e imobiliárias.',
+        descricao: 'Desenvolvimento de redesign do layout do site da loja Vulcão Tintas oferecendo um visual mais moderno e atrativo para a experiência do cliente online.',
         tecnologias: ['NextJS', 'ReactJS', 'Tailwind CSS', 'JavaScript', 'TypeScript'],
         link_repositorio: 'https://github.com/reuelsilva/vulcao-tintas-frontend',
         link_deploy: 'https://vulcao-tintas-frontend.vercel.app/'   
