@@ -4,7 +4,7 @@ export const PROJECTS:ProjectProps[] = [
     {
         id: 1,
         nome: 'projeto-blog',
-        descricao: 'Projeto de blog para artigos de tecnologia com navegação entre rotas.',
+        descricao: 'Página inicial de blog com navegação entre rotas para acessar artigo, reaproveitamento de código com componentes React e estilos e responsividade aplicadas com classes do Tailwind CSS.',
         tecnologias: ['NextJS', 'ReactJS', 'TypeScript', 'Tailwind CSS', 'JavaScript'],
         link_repositorio: 'https://github.com/reuelsilva/projeto-blog',
         link_deploy: 'https://curiosidades-de-tecnologia.vercel.app/'
