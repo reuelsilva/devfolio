@@ -4,7 +4,7 @@ export const PROJECTS:ProjectProps[] = [
     {
         id: 1,
         nome: 'projeto-blog',
-        descricao: 'Página inicial de blog com navegação entre rotas para acessar artigo, reaproveitamento de código com componentes React e estilos e responsividade aplicadas com classes do Tailwind CSS.',
+        descricao: 'Blog de exemplo com navegação entre rotas para acesso de artigos, reaproveitamento de código com componentes React e estilos e responsividade aplicadas com classes do Tailwind CSS.',
         tecnologias: ['NextJS', 'ReactJS', 'TypeScript', 'Tailwind CSS', 'JavaScript'],
         link_repositorio: 'https://github.com/reuelsilva/projeto-blog',
         link_deploy: 'https://curiosidades-de-tecnologia.vercel.app/'
@@ -12,7 +12,7 @@ export const PROJECTS:ProjectProps[] = [
     {
         id: 2,
         nome: 'vulcao-tintas-frontend',
-        descricao: 'Desenvolvimento de redesign do layout do site da loja Vulcão Tintas oferecendo um visual mais moderno e atrativo para a experiência do cliente online.',
+        descricao: 'Redesign do layout do site da loja Vulcão Tintas oferecendo um visual mais moderno e atrativo para a experiência do cliente online.',
         tecnologias: ['NextJS', 'ReactJS', 'Tailwind CSS', 'JavaScript', 'TypeScript'],
         link_repositorio: 'https://github.com/reuelsilva/vulcao-tintas-frontend',
         link_deploy: 'https://vulcao-tintas-frontend.vercel.app/'   

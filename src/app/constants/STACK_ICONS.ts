@@ -46,26 +46,31 @@ export const STACK_ICONS = [
     },
     {
         id: 10,
-        nome: 'Jest',
-        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg'
+        nome: 'Playwright',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg'
     },
     {
         id: 11,
+        nome: 'Postman',
+        url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg'
+    },
+    {
+        id: 12,
         nome: 'MySQL',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg'
     },
     {
-        id: 12,
+        id: 13,
         nome: 'PostgreSQL',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg'
     },
     {
-        id: 13,
+        id: 14,
         nome: 'SQLite',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg'
     },
     {
-        id: 14,
+        id: 15,
         nome: 'Mongo DB',
         url: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg'
     }
