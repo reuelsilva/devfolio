@@ -19,6 +19,14 @@ export const PROJECTS:ProjectProps[] = [
     },
     {
         id: 3,
+        nome: 'incentive-site',
+        descricao: 'Front-end do site institucional da ONG Instituto Incentive, desenvolvido como um projeto voluntário e colaborativo.',
+        tecnologias: ['React', 'JavaScript', 'Tailwind CSS'],
+        link_repositorio: 'https://github.com/reuelsilva/incentive-site',
+        link_deploy: ''   
+    },
+    {
+        id: 4,
         nome: 'mks-loja-virtual',
         descricao: 'Projeto de loja virtual renderizando a lista de produtos do catálogo e exibindo um carrinho de compras interativo.',
         tecnologias: ['HTML', 'CSS', 'JavaScript', 'JSON-Server'],
