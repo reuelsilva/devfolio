@@ -29,8 +29,8 @@ export const PROJECTS:ProjectProps[] = [
         id: 4,
         nome: 'mks-loja-virtual',
         descricao: 'Projeto de loja virtual renderizando a lista de produtos do catálogo e exibindo um carrinho de compras interativo.',
-        tecnologias: ['HTML', 'CSS', 'JavaScript', 'JSON-Server'],
-        link_repositorio: 'https://github.com/reuelsilva/mks-frontend-challenge',
+        tecnologias: ['NextJS', 'React.JS', 'TypeScript', 'Sass', 'JSON-Server'],
+        link_repositorio: 'https://github.com/reuelsilva/mks-frontend-challenge-reactjs',
         link_deploy: ''   
     },
     {
