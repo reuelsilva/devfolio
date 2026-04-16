@@ -28,12 +28,6 @@ export default function Contacts() {
                     icon="/social-icons/whatsapp-icon.png"
                     social="WhatsApp"
                 />
-                
-                <SocialLink
-                    href="https://www.instagram.com/reueldev/"
-                    icon="/social-icons/instagram-icon.png"
-                    social="Instagram"
-                />
             </div>
         </section>
     )
